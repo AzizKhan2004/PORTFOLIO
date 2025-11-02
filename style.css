@@ -572,6 +572,13 @@ header {
     box-shadow: 0 0 5px #72a1de81;
     cursor: pointer;
     transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.project-info button i{
+    font-size: 18px;
 }
 
 .project-info button:hover{
